@@ -1,0 +1,30 @@
+#navigation ul { padding-bottom: 2px;}
+#logo img {	height: 3em; }
+#navigation {	
+	z-index: 2000;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+#navigation li {
+	border-right: 1px solid grey;
+	display: inline-block;
+	padding-right: 0.5em;
+}
+
+#navigation li:hover, #navigation li a:hover{
+	background: #8fc0a9;
+	color: #ffffff;
+}
+#navigation li:last-child {
+	border-left: 1px solid grey;
+	padding-left: 0.5em;
+	border-right: 0;
+}
+
+/* Smart deivices */
+@media only screen and (max-width: 760px) {
+	#navigation { font-size: 0.6em; }
+	#logo img { width: 30px; height: 24px }
+	#navigation li:last-child { border: none; margin:0;padding:0; }
+}

@@ -1,0 +1,19 @@
+.day:first-child { border-left: 1px solid black; }
+#forecast_curr { background-color: #c8d5b9; }
+#forecast dd { float: right; }
+#days {	width: 80%; }
+#min { color: blue; }
+#max { color: red; }
+
+.day {
+	display: inline;
+	border: 1px solid black;
+	border-left: none;
+	padding-left: 2%;
+	padding-right: 2%;
+	cursor: pointer;
+}
+#forecast {
+	width: 30%;	
+	font-size: 160%;
+}

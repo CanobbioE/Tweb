@@ -1,0 +1,17 @@
+:focus { box-shadow: 0 0 5px rgb(81, 203, 238); }
+#signin {
+	width: 35%;
+	padding-left: 15%;
+	border-left: 2px solid grey;	
+}
+#login { padding-left: 15%;	}
+
+#info {
+	color: red;
+	font-size: 0.7em;
+}
+/* Smart deivices */
+@media only screen and (max-width: 760px) {
+	#login {float:none}
+	#signin{float:none; border:none; margin-top: 10px;}
+}

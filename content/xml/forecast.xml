@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<information city="Caldirola">
+
+<day value="10.11.2010">
+	<tmin>14.46</tmin>
+	<tmax>19.16</tmax>
+	<description>13</description>
+	<precipitation>10.00</precipitation>
+	<windir>215</windir>
+	<windvel>6.6</windvel>
+</day>
+<day value="11.11.2010">
+	<tmin>11.10</tmin>
+	<tmax>15.67</tmax>
+	<description>5</description>
+	<precipitation>70.00</precipitation>
+	<windir>249</windir>
+	<windvel>2.5</windvel>
+</day>
+<day value="12.11.2010">
+	<tmin>7.12</tmin>
+	<tmax>17.02</tmax>
+	<description>14</description>
+	<precipitation>20.00</precipitation>
+	<windir>205</windir>
+	<windvel>2.1</windvel>
+</day>
+<day value="13.11.2010">
+	<tmin>10.85</tmin>
+	<tmax>19.57</tmax>
+	<description>14</description>
+	<precipitation>10.00</precipitation>
+	<windir>159</windir>
+	<windvel>3.9</windvel>
+</day>
+<day value="14.11.2010">
+	<tmin>14.72</tmin>
+	<tmax>19.98</tmax>
+	<description>14</description>
+	<precipitation>30.00</precipitation>
+	<windir>150</windir>
+	<windvel>4.6</windvel>
+</day>
+<day value="15.11.2010">
+	<tmin>14.07</tmin>
+	<tmax>19.62</tmax>
+	<description>14</description>
+	<precipitation>30.00</precipitation>
+	<windir>144</windir>
+	<windvel>4.9</windvel>
+</day>
+<day value="16.11.2010">
+	<tmin>13.58</tmin>
+	<tmax>19.85</tmax>
+	<description>14</description>
+	<precipitation>30.00</precipitation>
+	<windir>155</windir>
+	<windvel>4.7</windvel>
+</day>
+</information>

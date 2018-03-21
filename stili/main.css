@@ -1,0 +1,29 @@
+/* General */
+body { background: rgba(254,255,113, 0.6); }
+#flash { border-bottom: 1px dashed black; }
+* {	margin: 0; padding: 0; }
+#wrapper {
+	width: 90%;
+	overflow: auto;
+	margin-top: 52px;
+	border: 2px solid grey;
+}
+
+/* Article */
+#article { text-align: justify; }
+#article p { margin: 1%; }
+
+/* Profile */
+#person_info {	width: 30%; }
+
+/* Footer + validator */
+footer {
+	clear: right;
+	opacity: 0.4;
+}
+/* Smart deivices */
+@media only screen and (max-width: 760px) {
+	#article h1 {font-size: 1em}
+	#article {width:100%; float:none;}
+	#article p {margin: 5px; font-size: 0.8em;}
+}

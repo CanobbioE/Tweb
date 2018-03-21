@@ -1,0 +1,10 @@
+#slideshow img {
+	width: 100%;
+	height: 100%;
+	object-fit:  cover;
+}
+
+#slideshow {
+	height: 250px;
+	overflow: hidden;
+}

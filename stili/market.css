@@ -1,0 +1,39 @@
+#name-search { display: none; }
+
+/* Drag & Drop */
+.item {	min-width: 33%; }
+.item img {	
+	cursor: grab; 
+	width: 122px; 
+	height: 102px;
+}
+.item img:hover {
+	width: 120px;
+	height: 100px;
+	border: 1px dashed black;
+}
+#drop-area img {
+	height: 102px;
+	width: 122px;
+	border: 1px solid black;
+}
+
+/* Query results */
+#result table a:hover {
+	color: white;
+	text-decoration: underline;
+}
+#result table {	width: 50%; }
+#result table td {
+	border-top: 1px solid black;
+	padding-right: 2%;
+	padding-left: 2%;
+}	
+
+/* Sidelist */
+.request { font-size: 0.9em; }
+.dbitem { color: red; }
+
+@media only screen and (max-width: 760px) {
+	#market-request {display: none;}
+}
